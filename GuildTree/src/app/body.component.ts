@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
   })
   
 export class BodyComponent {
-  title3 = 'app works3!';
+
     
 }

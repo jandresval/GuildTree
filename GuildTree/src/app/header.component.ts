@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
     moduleId: module.id,
@@ -8,6 +8,18 @@ import { Component } from '@angular/core';
   })
   
 export class HeaderComponent {
-  
+    public attribute:string;
+    private _display:boolean;
+
+    contructor(){ 
+        this._display=false;
+        this.attribute="'display: none'";
+    }
     
+    toggleMenu(){
+        console.log("Enter !");
+        this._display = !this._display;
+        this.attribute = this._display ? "block" : "none";
+    }
+
 }
