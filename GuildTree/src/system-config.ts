@@ -9,7 +9,6 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 const map: any = {
-        'ng2-social-share':'js/ng2-social-share/ng2-social-share.js'
 };
 
 /** User packages configuration. */

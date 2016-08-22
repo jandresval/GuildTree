@@ -1,12 +1,10 @@
 import { Component } from '@angular/core';
-import { CeiboShare } from 'ng2-social-share';
 
 @Component({
     moduleId: module.id,
     selector: 'body-root',
     templateUrl: 'body.component.html',
     styleUrls: ['body.component.css'],
-    directives:[CeiboShare]
   })
   
 export class BodyComponent {
