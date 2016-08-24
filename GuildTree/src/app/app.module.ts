@@ -5,6 +5,7 @@ import { BrowserModule }    from '@angular/platform-browser';
 import { AppComponent }     from './app.component';
 import { HeaderComponent }  from './header.component';
 import { BodyComponent }    from './body.component';
+import { BodyInfoComponent }from './bodyinfo.component';
 import { FooterComponent }  from './footer.component';
 
 
@@ -14,7 +15,11 @@ import { FooterComponent }  from './footer.component';
   declarations: [ AppComponent ,
                   HeaderComponent,
                   BodyComponent,
+                  BodyInfoComponent,
                   FooterComponent],
-  bootstrap:    [ AppComponent ]
+  bootstrap:    [ AppComponent ],
+  providers: [
+              { provide: 'Window',  useValue: window }
+            ]
 })
 export class AppModule { }

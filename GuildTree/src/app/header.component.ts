@@ -17,7 +17,6 @@ export class HeaderComponent {
     }
     
     toggleMenu(){
-        console.log("Enter !");
         this._display = !this._display;
         this.attribute = this._display ? "block" : "none";
     }
