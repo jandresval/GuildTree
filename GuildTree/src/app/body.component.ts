@@ -20,7 +20,7 @@ export class BodyComponent {
     
     constructor(){ 
         this.units = 'Days | Hours | Minutes | Seconds';
-        this.end = 'January 31, 2017';
+        this.end = 'September 30, 2016';
         this.Days='4';
         setInterval(()=>this.displayString(), 1);
     }
