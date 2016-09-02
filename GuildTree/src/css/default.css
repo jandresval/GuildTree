@@ -476,8 +476,12 @@ object {
    max-width: 100%;
    height: auto;
 }
-img.pull-right { margin: 12px 0px 0px 18px; }
-img.pull-left { margin: 12px 18px 0px 0px; }
+img.pull-right { margin: 12px 0px 0px 18px; 
+			height:150px !important;
+			border:2px solid; }
+img.pull-left { margin: 12px 18px 0px 0px; 
+			height:150px !important;
+			border:2px solid;}
 
 /* 6. Buttons  --------------------------------------------------------- */
 
@@ -661,6 +665,12 @@ input[type="checkbox"] { display: inline; }
 .column.centered, .columns.centered  {
     float: none;
     margin: 0 auto;
+}
+
+.paragraph{
+	text-align: justify;
+	margin: auto auto 20px auto;
+	/*border:1px solid;*/
 }
 
 /* removed gutters */

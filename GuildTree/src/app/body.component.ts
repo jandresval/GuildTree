@@ -19,10 +19,10 @@ export class BodyComponent {
     Seconds:string;
     
     constructor(){ 
-        this.units = 'Days | Hours | Minutes | Seconds';
+        /*this.units = 'Days | Hours | Minutes | Seconds';
         this.end = 'September 30, 2016';
         this.Days='4';
-        setInterval(()=>this.displayString(), 1);
+        setInterval(()=>this.displayString(), 1);*/
     }
     
     displayString() {
